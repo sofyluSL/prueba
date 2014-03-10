@@ -1,0 +1,102 @@
+2014/03/09 22:23:02 [error] [php] Trying to get property of non-object (C:\wamp\www\nutricion_medida\protected\views\site\index.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\nutricion_medida\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\nutricion_medida\index.php(13): CWebApplication->run()
+REQUEST_URI=/nutricion_medida/
+in C:\wamp\www\nutricion_medida\protected\views\site\index.php (2)
+in C:\wamp\www\nutricion_medida\protected\controllers\SiteController.php (32)
+in C:\wamp\www\nutricion_medida\index.php (13)
+2014/03/09 22:25:23 [error] [php] Trying to get property of non-object (C:\wamp\www\nutricion_medida\protected\views\layouts\main.php:8)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\wamp\www\nutricion_medida\protected\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\wamp\www\yii\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\wamp\www\nutricion_medida\protected\controllers\SiteController.php(32): SiteController->render()
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\nutricion_medida\index.php(13): CWebApplication->run()
+REQUEST_URI=/nutricion_medida/
+in C:\wamp\www\nutricion_medida\protected\views\layouts\main.php (8)
+in C:\wamp\www\nutricion_medida\protected\views\layouts\column1.php (7)
+in C:\wamp\www\nutricion_medida\protected\controllers\SiteController.php (32)
+2014/03/09 22:25:50 [error] [php] Trying to get property of non-object (C:\wamp\www\nutricion_medida\protected\views\site\pages\graphs.php:2)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\nutricion_medida\index.php(13): CWebApplication->run()
+REQUEST_URI=/nutricion_medida/index.php?r=site/page&view=graphs
+in C:\wamp\www\nutricion_medida\protected\views\site\pages\graphs.php (2)
+in C:\wamp\www\nutricion_medida\index.php (13)
+2014/03/09 22:27:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\nutricion_medida\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/nutricion_medida/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/nutricion_medida/index.php?r=site/page&view=buttons_and_icons
+---
+2014/03/10 19:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\nutricion_medida\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/nutricion_medida/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/nutricion_medida/index.php?r=site/page&view=buttons_and_icons
+---
+2014/03/10 20:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\nutricion_medida\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/nutricion_medida/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/nutricion_medida/index.php?r=site/page&view=buttons_and_icons
+---
